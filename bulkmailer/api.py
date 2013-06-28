@@ -6,7 +6,7 @@ class Api (object):
     self.key = key
     self.host = host
     self.protocol = 'http'
-    self.list_limit = 300
+    self.list_limit = 100
     
     if ssl:
       self.protocol = 'https'
