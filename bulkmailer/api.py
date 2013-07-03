@@ -50,3 +50,10 @@ class Api (object):
     r = requests.post(self.url + 'campaign/send/', data=self.set_key(payload))
     self.check_response(r)
     
+  def campaign_send_test (self, list_id, cmpgn_id, payload):
+    payload['list_id'] = list_id
+    payload['campaign_id'] = campaign_id
+    
+    r = requests.post(self.url + 'campaign/send/test/', data=self.set_key(payload))
+    self.check_response(r)
+    
