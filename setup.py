@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "bulkmailer",
-    version = '13.6.4',
+    version = '13.6.6',
     description = "API library for accessing GAE Bulk Mailer",
     url = "https://github.com/pizzapanther/Bulk-Mailer",
     author = "Paul Bailey",
